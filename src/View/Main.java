@@ -20,7 +20,7 @@ public class Main {
 
 
             Thread threadM  = new ThreadMatrix(mat[i], i);
-            threadM.run();
+            threadM.start();
 
 
         }
